@@ -14,7 +14,7 @@ const Navbar = () => {
 	return (
 		<div className="max-w-[1640px] mx-auto flex justify-between">
 			{/* Left Side */}
-			<div className="flex items-center">
+			<div className="flex items-center m-2">
 				<div
 					onClick={() => setToggleNav(!toggleNav)}
 					className="cursor-pointer"
@@ -26,7 +26,7 @@ const Navbar = () => {
 				</h1>
 			</div>
 			{/* Search */}
-			<div className="bg-gray-300 rounded-full items-center flex px-2 w-full sm:w-[500px] lg:w-[750px] ">
+			<div className="bg-gray-300 rounded-full items-center flex px-2 w-[200px] sm:w-[400px] lg:w-[500px] m-2">
 				<AiOutlineSearch size={20} />
 				<input
 					className="bg-transparent p-2 w-full"
@@ -34,7 +34,7 @@ const Navbar = () => {
 					placeholder="Search Cards"
 				></input>
 			</div>
-			<button className="bg-black text-white hidden md:flex rounded-full items-center py-2">
+			<button className="bg-black text-white hidden md:flex rounded-full items-center py-2 m-2">
 				<BsFillCartFill size={20} className="mr-2" />
 				Cart
 			</button>
