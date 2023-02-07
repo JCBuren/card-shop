@@ -22,7 +22,7 @@ const Navbar = () => {
 					<AiOutlineMenu size={35} />
 				</div>
 				<h1 className="text-2xl sm:text-3xl lg:text-4xl">
-					Hello <span>World</span>
+					All Star <span className="font-bold italic">Sports Cards</span>
 				</h1>
 			</div>
 			{/* Search */}
@@ -57,7 +57,7 @@ const Navbar = () => {
 					className="absolute right-4 top-4 cursor-pointer"
 				/>
 				<h2 className="text-2xl p-4">
-					Hello <span className="font-bold">World</span>
+					All-Star <span className="font-bold italic">Sports Cards</span>
 				</h2>
 				<nav>
 					<ul className="flex flex-col p-6 text-gray-750">

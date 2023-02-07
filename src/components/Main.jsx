@@ -13,7 +13,11 @@ const Main = () => {
 						Sports <span className="text-orange-500">Cards</span>
 					</h1>
 				</div>
-				<img className="w-full max-h-[500px] object-cover" src={MainImg} alt="/" />
+				<img
+					className="w-full max-h-[500px] object-cover"
+					src={MainImg}
+					alt="/"
+				/>
 			</div>
 		</div>
 	)
